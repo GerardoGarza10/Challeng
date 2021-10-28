@@ -71,7 +71,7 @@ public class Microsoft {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(menuOption).perform();
 		
-		System.out.println("Done Mouse hover on 'Music' from Menu");
+		
 
 		//String label = driver.findElement(By.xpath("//nav[@id='uhf-g-nav']/ul[@class='js-paddle-items']/li[2]/div[@class='c-uhf-menu js-nav-menu']/ul/li[2]/button[@type='button']")).getText();
 		String label1 = driver.findElement(By.xpath("//nav[@id='uhf-g-nav']/ul[@class='js-paddle-items']/li[2]/div[@class='c-uhf-menu js-nav-menu']/ul/li[2]/ul//a[@href='https://www.microsoft.com/p/windows-10-home/d76qx4bznwk4']")).getText();
